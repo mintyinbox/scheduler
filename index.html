@@ -18,7 +18,7 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./assets/style.css" />
     <title>Work Day Scheduler</title>
   </head>
 
@@ -28,11 +28,116 @@
       <p class="lead">A simple calendar app for scheduling your work day</p>
       <p id="currentDay" class="lead"></p>
     </header>
-    <div class="container">
+    <div class="container card m-5">
       <!-- Timeblocks go here -->
+      <table class="table table-sm table-light">
+        <tbody id="t-body">
+          <tr class="table-active">
+            <th scope="row"><b>9 AM</b></th>
+            <td colspan="2">
+              <input type="text" name="todo-text" id="todo-text" />
+            </td>
+
+            <td>
+              <button class="btn btn-light" id="button" type="submit">
+                Save
+              </button>
+            </td>
+          </tr>
+          <tr class="table-success">
+            <th scope="row"><b>10 AM</b></th>
+            <td colspan="2">
+              <input type="text" name="todo-text" id="todo-text" />
+            </td>
+            <td>
+              <button class="btn btn-light" id="button" type="submit">
+                Save
+              </button>
+            </td>
+          </tr>
+          <tr class="table-active">
+            <th scope="row"><b>11 AM</b></th>
+            <td colspan="2">
+              <input type="text" name="todo-text" id="todo-text" />
+            </td>
+            <td>
+              <button class="btn btn-light" id="button" type="submit">
+                Save
+              </button>
+            </td>
+          </tr>
+          <tr class="table-success">
+            <th scope="row"><b>12 PM</b></th>
+            <td colspan="2">
+              <input type="text" name="todo-text" id="todo-text" />
+            </td>
+            <td>
+              <button class="btn btn-light" id="button" type="submit">
+                Save
+              </button>
+            </td>
+          </tr>
+          <tr class="table-active">
+            <th scope="row"><b>1 PM</b></th>
+            <td colspan="2">
+              <input type="text" name="todo-text" id="todo-text" />
+            </td>
+            <td>
+              <button class="btn btn-light" id="button" type="submit">
+                Save
+              </button>
+            </td>
+          </tr>
+          <tr class="table-success">
+            <th scope="row"><b>2 PM</b></th>
+            <td colspan="2">
+              <input type="text" name="todo-text" id="todo-text" />
+            </td>
+            <td>
+              <button class="btn btn-light" id="button" type="submit">
+                Save
+              </button>
+            </td>
+          </tr>
+          <tr class="table-active">
+            <th scope="row"><b>3 PM</b></th>
+            <td colspan="2">
+              <input type="text" name="todo-text" id="todo-text" />
+            </td>
+            <td>
+              <button class="btn btn-light" id="button" type="submit">
+                Save
+              </button>
+            </td>
+          </tr>
+          <tr class="table-success">
+            <th scope="row"><b>4 PM</b></th>
+            <td colspan="2">
+              <input type="text" name="todo-text" id="todo-text" />
+            </td>
+            <td>
+              <button class="btn btn-light" id="button" type="submit">
+                Save
+              </button>
+            </td>
+          </tr>
+          <tr class="table-active">
+            <th scope="row"><b>5 PM</b></th>
+            <td colspan="2">
+              <input type="text" name="todo-text" id="todo-text" />
+            </td>
+            <td>
+              <button class="btn btn-light" id="button" type="submit">
+                Save
+              </button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="./assets/app.js"></script>
   </body>
 </html>
