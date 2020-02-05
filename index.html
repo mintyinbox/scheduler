@@ -18,7 +18,7 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./assets/style.css" />
     <title>Work Day Scheduler</title>
   </head>
 
@@ -26,13 +26,104 @@
     <header class="jumbotron">
       <h1 class="display-3">Work Day Scheduler</h1>
       <p class="lead">A simple calendar app for scheduling your work day</p>
-      <p id="currentDay" class="lead"></p>
+      <p id="currentDate" class="lead"></p>
     </header>
-    <div class="container">
+    <div class="container card m-5">
       <!-- Timeblocks go here -->
+
+
+      <table class="table table-sm table-light">
+        <tbody id="t-body">
+          <tr class="table-active">
+            <th scope="row"><b>9 AM</b></th>
+            <td id="hour_9" colspan="2">
+              <textarea type="text" name="todo-text" class="todo-text"></textarea>
+              <button class="btn btn-light saveButton" type="submit">
+                Save
+              </button>
+            </td>
+          </tr>
+          <tr class="table-success">
+            <th scope="row"><b>10 AM</b></th>
+            <td id="hour_10" colspan="2">
+              <textarea type="text" name="todo-text" class="todo-text"></textarea>
+              <button class="btn btn-light saveButton" type="submit">
+                Save
+              </button>
+            </td>
+          </tr>
+          <tr class="table-active">
+            <th scope="row"><b>11 AM</b></th>
+            <td id="hour_11" colspan="2">
+              <textarea type="text" name="todo-text" class="todo-text"></textarea>
+              <button class="btn btn-light saveButton" type="submit">
+                Save
+              </button>
+            </td>
+          </tr>
+          <tr class="table-success">
+            <th scope="row"><b>12 PM</b></th>
+            <td id="hour_12" colspan="2">
+              <textarea type="text" name="todo-text" class="todo-text"></textarea>
+              <button class="btn btn-light saveButton" type="submit">
+                Save
+              </button>
+            </td>
+          </tr>
+          <tr class="table-active">
+            <th scope="row"><b>1 PM</b></th>
+            <td id="hour_1" colspan="2">
+              <textarea type="text" name="todo-text" class="todo-text"></textarea>
+              <button class="btn btn-light saveButton" type="submit">
+                Save
+              </button>
+            </td>
+          </tr>
+          <tr class="table-success">
+            <th scope="row"><b>2 PM</b></th>
+            <td id="hour_2" colspan="2">
+              <textarea type="text" name="todo-text" class="todo-text"></textarea>
+              <button class="btn btn-light saveButton" type="submit">
+                Save
+              </button>
+            </td>
+          </tr>
+          <tr class="table-active">
+            <th scope="row"><b>3 PM</b></th>
+            <td id="hour_3" colspan="2">
+              <textarea type="text" name="todo-text" class="todo-text"></textarea>
+              <button class="btn btn-light saveButton" type="submit">
+                Save
+              </button>
+            </td>
+          </tr>
+          <tr class="table-success">
+            <th scope="row"><b>4 PM</b></th>
+            <td id="hour_4" colspan="2">
+              <textarea type="text" name="todo-text" class="todo-text"></textarea>
+              <button class="btn btn-light saveButton" type="submit">
+                Save
+              </button>
+            </td>
+          </tr>
+          <tr class="table-active">
+            <th scope="row"><b>5 PM</b></th>
+            <td id="hour_5" colspan="2">
+              <textarea type="text" name="todo-text" class="todo-text"></textarea>
+              <button class="btn btn-light saveButton" type="submit">
+                Save
+              </button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
     </div>
 
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="./assets/app.js"></script>
   </body>
 </html>
