@@ -23,8 +23,10 @@ td {
     margin: 16px 0px 0px 0px;
     padding: 10px 15px;
   }
+}
 
 @media (max-width: 500px) {
   .btn {
       font-size: 0.8rem;
   }
+}
