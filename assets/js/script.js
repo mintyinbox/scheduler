@@ -16,7 +16,7 @@ $(document).ready(function() {
 
   // set local storage
   $(".saveButton").on("click", function() {
-    console.log("bruh wtf");
+    console.log("ree");
     let value = $(this)
       .siblings(".todo-text")
       .val();
